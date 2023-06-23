@@ -21,20 +21,20 @@
 	font-weight: inherit;
 }
 .body {
-	width: 1314px;
-	height: 100%; 
 	font-family: Roboto;
 	background-color: #E5E5E5;
-	
+	max-width: 1238px;
 }
 .container {
-	width: 1314px;
+	max-width: 1238 px;
+	margin: 0 auto;
+	padding-left: 40px;
+	padding-right: 40px;
 	background-color: #E5E5E5;
 	box-sizing: border-box;
-	margin: 0 auto;
-
 }
-.header {
+.header { 
+	width: 100%;
 	height: 90px;
 }
 .header_menu {
@@ -53,9 +53,6 @@
 	border-radius: 5px;
 	width: 213px;
 	height: 48px;
-	
-	margin-right: 40px;
-	margin-top: 20px;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
 	align-items: baseline;
@@ -70,15 +67,12 @@
 	border-radius: 5px;
 	width: 213px;
 	height: 49px;
-	margin-right: 50px;
-	margin-top: 20px;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
 	align-items: baseline;
 }
 .picture2 {
 	padding-right: 15px;
-	
 }
 .list3 {
 	font-weight: bold;
@@ -87,8 +81,6 @@
 	border-radius: 5px;
 	width: 213px;
 	height: 49px;
-	margin-right: 50px;
-	margin-top: 20px;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
 	align-items: baseline;
@@ -103,8 +95,6 @@
 	border-radius: 5px;
 	width: 213px;
 	height: 49px;
-	margin-right: 50px;
-	margin-top: 20px;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
 	align-items: baseline;
@@ -122,7 +112,6 @@
 	padding: 10px 20px 10px 20px;
 }
 .picture6 {
-	padding-left: 15px;
 }
 .list1:hover {
 	background-color: #162970;
@@ -146,36 +135,36 @@
 }
 .flex-container {
 	display: flex;
+	justify-content: space-between;
 }
 .farm {
-	margin-left: 40px;
 }
 .box {
-	margin-left: 40px;
 	opacity: 30%;
 }
 .ltc {
-	width: 10px;
-	height: 10px;
-	margin-right: 5px;
+	padding-right: 5px; 	
 }
 .box2 {
-	margin-left: 40px;
 	opacity: 30%;
 }
+.btc {
+	padding-right: 5px;
+}
 .box3 {
-	margin-left: 40px;
 	opacity: 30%;
+}
+.eth {
+	padding-right: 5px;
 }
 .box4 {
 	border: 1px solid #162970;
 	background-color: #162970;
-	border-radius: 5px;
-	width: 187px;
+	border-radius: 20px;
+	width: 290px;
 	height: 40px;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
-	margin-left: 500px;
 }
 .plus {
 	padding-right: 10px;
@@ -186,17 +175,208 @@
 }
 .flex-container2 {
 	display: flex;
+	justify-content: space-between;
 }
-.mini-flex {
-	display: flex;
-	margin-left: 40px;
+.boxes {
+	width: 290px;
+	height: 105px;
+	background-color: #ffffff;
+	text-align: left;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+.boxes:hover {
+	border: 3px solid #e6b800;
+	transition: all 500ms;
+}
+.boxes2 {
+	width: 290px;
+	height: 105px;
+	background-color: #ffffff;
+	text-align: left;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+.boxes2:hover {
+	border: 3px solid #e6b800;
+	transition: all 500ms;
+}
+.boxes3 {
+	width: 290px;
+	height: 105px;
+	background-color: #ffffff;
+	text-align: left;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+.boxes3:hover {
+	border: 3px solid #e6b800;
+	transition: all 500ms;
+}
+.boxes4 {
+	width: 290px;
+	height: 105px;
+	background-color: #ffffff;
+	text-align: left;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+.boxes4:hover {
+	border: 3px solid #e6b800;
+	transition: all 500ms;
+}
+.text {
+	opacity: 50%;
+	padding-top: 5px;
+}
+.text2 {
+	padding-top: 7px;
+}
+.text3 {
+	padding-top: 7px;
+}
+.text4 {
+	padding-top: 5px;
+}
+.text5 {
+	padding-top: 7px;
+}
+.text6 {
+	padding-top: 7px;
+}
+.text7 {
+	padding-top: 5px;
+}
+.text8 {
+	padding-top: 7px;
+}
+.text9 {
+	padding-top: 7px;
+}
+.text10 {
+	padding-top: 5px;
+}
+.text11 {
+	padding-top: 7px;
+}
+.text12 {
+	padding-top: 7px;
 }
 .foto {
-	padding-left: 50px;
-	
+	padding-right: 5px;
 }
-.usd {
-	margin-top: 50px;
-	margin-right: 30px;
-
+.foto2 {
+	padding-right: 5px;
+}
+.foto3 {
+	padding-right: 5px;
+}
+.elips {
+	 opacity: 50%;
+	 padding-left: 60px;
+}
+.ltc2 {
+	padding-left: 80px;
+}
+.romb {
+	padding-left: 80px;
+}
+.ltc_vektor {
+	width: 80px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+}
+.bitcoin {
+	width: 50px;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+.flex-container3 {
+	display: flex;
+	justify-content: space-between;
+}
+.binance_buy {
+	display: flex;
+	margin-top: 10px;
+}
+.binance {
+	width: 145px;
+	height: 36px;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+.buy {
+	width: 145px;
+	height: 36px;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+}
+.autobuy {
+	width: 290px;
+	height: 36px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 5px;
+}
+.autobuy2 {
+	width: 290px;
+	height: 36px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 5px;
+}
+.autobuy3 {
+	width: 290px;
+	height: 36px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 5px;
+}
+.flex-container4 {
+	display: flex;
+	margin-top: 20px;
+}
+.dash {
+	width: 290px;
+	height: 105px;
+	background-color: #ffffff;
+	text-align: left;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+.dash:hover {
+	border: 3px solid #e6b800;
+	transition: all 500ms;
+}
+.monero {
+	width: 290px;
+	height: 105px;
+	background-color: #ffffff;
+	text-align: left;
+	padding-left: 20px;
+	border-radius: 5px;
+	margin-left: 100px;
+}
+.monero:hover {
+	border: 3px solid #e6b800;
+	transition: all 500ms;
+}
+.flex-container5 {
+	display: flex;
+}
+.autobuy4 {
+	width: 290px;
+	height: 36px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 5px;
+	margin-left: 100px;
 }
