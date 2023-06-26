@@ -234,6 +234,7 @@
 }
 .text3 {
 	padding-top: 7px;
+	color: #4F4F4F;
 }
 .text4 {
 	padding-top: 5px;
@@ -379,4 +380,37 @@
 	text-align: center;
 	padding-top: 5px;
 	margin-left: 100px;
+}
+.flex-container6 {
+	display: flex;
+}
+.balans {
+	width: 106px;
+	height: 53px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.text13 {
+	font-size: 14px;
+	color: #828282;
+}
+.accrual {
+	width: 106px;
+	height: 53px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.text14 {
+	font-size: 14px;
+	color: #828282;
+}
+.service {
+	width: 106px;
+	height: 53px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.service2 {
+	font-size: 14px;
+	color: #828282;
 }
