@@ -414,3 +414,170 @@
 	font-size: 14px;
 	color: #828282;
 }
+span.text-color {
+	color: #828282;
+}
+span.text-size {
+	font-size: 12px;
+	color: #828282;
+}
+.container2 {
+	margin-top: 20px;
+}
+.container3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.dochod {
+	font-size: 15px;
+	color: #828282;
+}
+.dochod2 {
+	font-size: 15px;
+	color: #828282;
+	margin-left: 784px;
+}
+.grafik {
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	width: 915px;
+	height: 289px;
+}
+.text-color {
+	background-color: #ffffff;
+	color: #828282;
+	border: 1px solid #828282;
+	margin-top: 10px;
+}
+.button2 {
+	margin-left: 500px;
+}
+.button02 {
+	display: flex;
+}
+.tabl2 {
+	border: 1px #828282;
+}
+.flex-container7 {
+	display: flex;
+}
+.fin-tabl {
+	width: 303px;
+	height: 289px;
+	background-color: #ffffff;
+	margin-left: 20px;
+}
+.day {
+	padding-left: 20px;
+	color: #828282;
+	font-size: 14px;
+}
+.numbers2 {
+	padding-left: 20px;
+	color: #4f4f4f;
+	font-size: 18px;
+}
+.buttons {
+	display: flex;
+	width: 915px;
+	justify-content: space-between;
+	border: 1px solid #A3A3A3;
+	padding: 5px 10px 5px 10px;
+}
+.container4 {
+	margin-top: 50px;
+}
+.container5 {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #ffffff;
+	width: 915px;
+	height: 213px;
+	background-color: #ffffff;
+}	
+.tarif {
+	width: 915px;
+	display: flex;
+	background-color: #ffffff;
+	justify-content: space-between;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.tarif01 {
+	font-size: 13px;
+	color: #828282;
+	margin-right: 120px;
+}
+.container5 > .tarif >last-child
+.dochod3 {
+	font-size: 15px;
+	color: #828282;
+	margin-left: 804px;
+}
+.optimal {
+	width: 915px;
+	background-color: #ffffff;
+}
+.optimal01 {
+	width: 915px;
+	background-color: #ffffff;
+}
+.optimal02 {
+	width: 915px;
+	background-color: #ffffff;
+}
+.btc1 {
+	color: #255390;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.active {
+	color: #219653;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.active1 {
+	color: #F2994A;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 40px;
+}
+.date {
+	color: #4F4F4F;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 40px;
+}
+.date2 {
+	color: #4F4F4F;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 63px;
+}
+.time {
+	color: #4F4F4F;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 140px;
+}
+.suma {
+	color: #4F4F4F;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 40px;
+}
+.usd01 {
+	color: #828282;
+	font-size: 16px;
+	padding-left: 40px;
+}
+.tarif02 {
+	color: #828282;
+	font-size: 13px;
+	margin-right: 100px;
+}
