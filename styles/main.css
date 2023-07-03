@@ -28,19 +28,20 @@
 .container {
 	max-width: 1238 px;
 	margin: 0 auto;
-	padding-left: 40px;
-	padding-right: 40px;
+	font-family: Roboto;
+	padding: 0px 40px;
 	background-color: #E5E5E5;
 	box-sizing: border-box;
 }
 .header { 
-	width: 100%;
+	max-width: 100%;
 	height: 90px;
 }
 .header_menu {
 	background-color: #ffffff;
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row;
+	justify-content: space-between;
 }
 .menu_list li {
 	display: inline-block;
@@ -51,7 +52,7 @@
 	font-size: 14px;
 	border: 1px solid #000000;
 	border-radius: 5px;
-	width: 213px;
+	max-width: 213px;
 	height: 48px;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
@@ -65,7 +66,7 @@
 	font-size: 14px;
 	border: 1px solid #000000;
 	border-radius: 5px;
-	width: 213px;
+	max-width: 213px;
 	height: 49px;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
@@ -79,7 +80,7 @@
 	font-size: 14px;
 	border: 1px solid #000000;
 	border-radius: 5px;
-	width: 213px;
+	max-width: 213px;
 	height: 49px;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
@@ -93,7 +94,7 @@
 	font-size: 14px;
 	border: 1px solid #000000;
 	border-radius: 5px;
-	width: 213px;
+	max-width: 213px;
 	height: 49px;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
@@ -135,6 +136,7 @@
 }
 .flex-container {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 }
 .farm {
@@ -161,7 +163,7 @@
 	border: 1px solid #162970;
 	background-color: #162970;
 	border-radius: 20px;
-	width: 290px;
+	max-width: 290px;
 	height: 40px;
 	text-align: center;
 	padding: 10px 20px 10px 20px;
@@ -175,11 +177,13 @@
 }
 .flex-container2 {
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .boxes {
-	width: 290px;
-	height: 105px;
+	max-width: 290px;
+	max-height: 113px;
 	background-color: #ffffff;
 	text-align: left;
 	padding-left: 20px;
@@ -190,8 +194,8 @@
 	transition: all 500ms;
 }
 .boxes2 {
-	width: 290px;
-	height: 105px;
+	max-width: 290px;
+	max-height: 113px;
 	background-color: #ffffff;
 	text-align: left;
 	padding-left: 20px;
@@ -202,8 +206,8 @@
 	transition: all 500ms;
 }
 .boxes3 {
-	width: 290px;
-	height: 105px;
+	max-width: 290px;
+	max-height: 113px;
 	background-color: #ffffff;
 	text-align: left;
 	padding-left: 20px;
@@ -214,8 +218,8 @@
 	transition: all 500ms;
 }
 .boxes4 {
-	width: 290px;
-	height: 105px;
+	max-width: 290px;
+	max-height: 113px;
 	background-color: #ffffff;
 	text-align: left;
 	padding-left: 20px;
@@ -283,17 +287,19 @@
 	padding-left: 80px;
 }
 .ltc_vektor {
-	width: 80px;
+	max-width: 80px;
 	margin-left: 100px;
 	margin-bottom: 40px;
 }
 .bitcoin {
-	width: 50px;
+	max-width: 50px;
 	padding-left: 30px;
 	padding-top: 5px;
 }
 .flex-container3 {
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .binance_buy {
@@ -301,115 +307,124 @@
 	margin-top: 10px;
 }
 .binance {
-	width: 145px;
+	max-width: 145px;
 	height: 36px;
 	border-radius: 5px;
 	background-color: #ffffff;
 }
 .buy {
-	width: 145px;
+	max-width: 145px;
 	height: 36px;
 	border: 1px solid #ffffff;
 	border-radius: 5px;
+	margin-right: 10px;
 }
 .autobuy {
-	width: 290px;
-	height: 36px;
+	max-width: 290px;
+	max-height: 36px;
 	border-radius: 5px;
 	background-color: #ffffff;
 	margin-top: 10px;
+	margin-right: 10px;
 	text-align: center;
 	padding-top: 5px;
 }
 .autobuy2 {
-	width: 290px;
+	max-width: 290px;
 	height: 36px;
 	border-radius: 5px;
 	background-color: #ffffff;
 	margin-top: 10px;
+	margin-right: 10px;
 	text-align: center;
 	padding-top: 5px;
 }
 .autobuy3 {
-	width: 290px;
+	max-width: 289px;
 	height: 36px;
 	border-radius: 5px;
 	background-color: #ffffff;
 	margin-top: 10px;
+	margin-right: 10px;
 	text-align: center;
 	padding-top: 5px;
 }
-.flex-container4 {
-	display: flex;
-	margin-top: 20px;
-}
 .dash {
-	width: 290px;
-	height: 105px;
+	max-width: 290px;
+	max-height: 113px;
 	background-color: #ffffff;
 	text-align: left;
 	padding-left: 20px;
 	border-radius: 5px;
+}
+.dash_foto {
+	padding-left: 100px;
+}
+.speed2 {
+	padding-top: 10px;
+}
+.zero {
+	padding-top: 10px;
 }
 .dash:hover {
 	border: 3px solid #e6b800;
 	transition: all 500ms;
 }
 .monero {
-	width: 290px;
-	height: 105px;
+	max-width: 290px;
+	max-height: 113px;
 	background-color: #ffffff;
 	text-align: left;
 	padding-left: 20px;
 	border-radius: 5px;
-	margin-left: 100px;
+}
+.monero_foto {
+	padding-left: 100px;
+	padding-top: 10px;
+}
+.ltc0 {
+	padding-top: 10px;
 }
 .monero:hover {
 	border: 3px solid #e6b800;
 	transition: all 500ms;
 }
-.flex-container5 {
-	display: flex;
-}
 .autobuy4 {
-	width: 290px;
+	max-width: 280px;
 	height: 36px;
 	border-radius: 5px;
 	background-color: #ffffff;
 	margin-top: 10px;
+	margin-right: 10px;
 	text-align: center;
 	padding-top: 5px;
-	margin-left: 100px;
 }
-.flex-container6 {
-	display: flex;
-}
-.balans {
-	width: 106px;
+.flex-container4 {
+	max-width: 400px;
 	height: 53px;
-	margin-top: 30px;
-	margin-right: 20px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-top:40px;
 }
+.numbers {
+	size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+span.btc001 {
+	font-size: 12px;
+	color: #828282;
+}	
 .text13 {
 	font-size: 14px;
 	color: #828282;
 }
-.accrual {
-	width: 106px;
-	height: 53px;
-	margin-top: 30px;
-	margin-right: 20px;
-}
-.text14 {
-	font-size: 14px;
+span.btc002 {
+	font-size: 12px;
 	color: #828282;
 }
-.service {
-	width: 106px;
-	height: 53px;
-	margin-top: 30px;
-	margin-right: 20px;
-}
+
 .service2 {
 	font-size: 14px;
 	color: #828282;
@@ -422,7 +437,7 @@ span.text-size {
 	color: #828282;
 }
 .container2 {
-	margin-top: 20px;
+	margin-top: 40px;
 }
 .container3 {
 	margin-top: 20px;
@@ -435,13 +450,16 @@ span.text-size {
 .dochod2 {
 	font-size: 15px;
 	color: #828282;
+	margin-left: 765px;
+}
+.kontakts {
 	margin-left: 784px;
 }
+	
 .grafik {
 	border: 1px solid #ffffff;
 	background-color: #ffffff;
-	width: 915px;
-	height: 289px;
+	max-width: 100%;
 }
 .text-color {
 	background-color: #ffffff;
@@ -460,12 +478,15 @@ span.text-size {
 }
 .flex-container7 {
 	display: flex;
+	flex-direction: row;
+	
 }
 .fin-tabl {
-	width: 303px;
-	height: 289px;
+	max-width: 100%;
 	background-color: #ffffff;
 	margin-left: 20px;
+	margin-bottom: 50px;
+	border-radius: 5px;
 }
 .day {
 	padding-left: 20px;
@@ -475,14 +496,90 @@ span.text-size {
 .numbers2 {
 	padding-left: 20px;
 	color: #4f4f4f;
-	font-size: 18px;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+.flex-container8 {
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.container01 {
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.container002 {
+	margin-top: 30px;
+}
+.dochod02 {
+	color: #828282;
+	font-size: 15px;
+	padding-top: 30px;
+	
+}
+.kontrakts {
+	padding-top: 10px;
+	padding-left: 5px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	border: 5px;
+}
+.kontrakts2 {
+	padding-top: 10px;
+	padding-right: 5px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	border: 5px;
+}
+.kontrakts3 {
+	padding-top: 10px;
+	padding-right: 5px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.kontrakts4 {
+	padding-top: 10px;
+	padding-left: 35px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	margin-left: 40px;
+}
+span.ths {
+	padding-left: 100px;
+}
+span.dates {
+	padding-left: 20px;
+}	
+.names {
+	padding: 10px;
 }
 .buttons {
 	display: flex;
-	width: 915px;
+	max-width: 915px;
 	justify-content: space-between;
-	border: 1px solid #A3A3A3;
 	padding: 5px 10px 5px 10px;
+	
+}
+.first {
+	color: #828282;
+	font-size: 17px;
+	border: 1px solid #A3A3A3;
+	padding: 5px 20px 5px 20px;
+	background-color: #E5E5E5;
+	margin: 10px 0px 10px 0px;
+}
+.first:hover {
+	color: #255390;
+	font-weight: bold;
+	transition: all 2000ms;
+	background-color: #ffffff;
 }
 .container4 {
 	margin-top: 50px;
@@ -491,12 +588,12 @@ span.text-size {
 	display: flex;
 	justify-content: space-between;
 	border: 1px solid #ffffff;
-	width: 915px;
+	max-width: 915px;
 	height: 213px;
 	background-color: #ffffff;
 }	
 .tarif {
-	width: 915px;
+	max-width: 915px;
 	display: flex;
 	background-color: #ffffff;
 	justify-content: space-between;
@@ -509,23 +606,25 @@ span.text-size {
 	color: #828282;
 	margin-right: 120px;
 }
-.container5 > .tarif >last-child
 .dochod3 {
 	font-size: 15px;
 	color: #828282;
 	margin-left: 804px;
 }
 .optimal {
-	width: 915px;
+	max-width: 915px;
 	background-color: #ffffff;
 }
 .optimal01 {
 	width: 915px;
 	background-color: #ffffff;
+	padding-top: 20px;
 }
 .optimal02 {
-	width: 915px;
+	max-width: 915px;
 	background-color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .btc1 {
 	color: #255390;
@@ -580,4 +679,90 @@ span.text-size {
 	color: #828282;
 	font-size: 13px;
 	margin-right: 100px;
+}
+.names {
+	font-size: 15px;
+	color: #4F4F4F;
+	padding-left: 3px;
+	font-weight: bold;
+}
+.active3 {
+	color: 219653;
+	font-size: 13px;
+}
+.active4 {
+	color: 219653;
+	font-size: 13px;
+}
+.names:hover {
+	color: #ffffff;
+}
+.kontrakts:hover {
+	color: #ffffff;
+	background-color: #162970;
+	transition: all 1000ms;
+}
+.kontrakts2:hover {
+	color: #ffffff;
+	background-color: #162970;
+	transition: all 1000ms;
+}
+.kontrakts3:hover {
+	color: #ffffff;
+	background-color: #162970;
+	transition: all 1000ms;
+}
+.kontrakts4:hover {
+	color: #ffffff;
+	background-color: #162970;
+	transition: all 1000ms;
+}
+@media screen  (max-width: 1238px) {
+	.container {
+		max-width: 1008px;
+	}
+}
+@media screen (max-widht: 1030px) {
+	.container {
+		max-width: 788px;
+	}
+	.flex-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.flex-container2 {
+		display: flex;
+		flex-direction: column;
+	}
+	.flex-container3 {
+		display: flex;
+		flex-direction: column;
+	}
+	.flex-container7 {
+		display: flex;
+		flex-direction: column;
+	}
+	.day {
+		font-size: 12px;
+	}
+}
+}
+@media screen (max-widht: 805px) {
+	.container {
+		max-width: none;
+	}
+	.flex-container {
+		display: none;
+	}
+	.flex-container3 {
+		display: flex;
+		flex-direction: column;
+	}
+	.flex-container7 {
+		display: flex;
+		flex-direction: column;
+	}
+	.day {
+		font-size: 12px;
+	}
 }
